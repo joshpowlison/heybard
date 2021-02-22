@@ -303,16 +303,6 @@ if ( ! class_exists( 'TwentyTwenty_Customize' ) ) {
 				)
 			);
 
-			$wp_customize->add_control(
-				new TwentyTwenty_Separator_Control(
-					$wp_customize,
-					'cover_template_separator_1',
-					array(
-						'section' => 'cover_template_options',
-					)
-				)
-			);
-
 			/* Overlay Background Color ------ */
 
 			$wp_customize->add_setting(
